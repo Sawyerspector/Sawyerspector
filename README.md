@@ -33,7 +33,7 @@ Focuses on gameplay systems, level design, and interactive narrative.
 ---
 
 ## Contact
-**Email:** sawyer.spector@gmail.com
+**Email:** sawyer.spector@gmail.com/
 **LinkedIn:** https://www.linkedin.com/in/sawyer-spector-2b89a5302/
 
 ---
