@@ -5,7 +5,7 @@ I work across low-level engineering (C, assembly, CPU design), UI/UX design, and
 
 ---
 
-## 🔧 Technical Focus Areas
+## Technical Focus Areas
 - **Systems & Architecture:** C programming, MIPS assembly, CPU/datapath design, digital logic
 - **Software Engineering:** Java, C#, Python, Git workflows
 - **Embedded & Hardware-adjacent work:** Logisim Evolution, timing logic, memory structures
@@ -13,7 +13,7 @@ I work across low-level engineering (C, assembly, CPU design), UI/UX design, and
 
 ---
 
-## 🗂 Featured Projects
+## Featured Projects
 
 ### 🔹 [CS250 Computer Architecture Portfolio](https://github.com/Sawyerspector/cs250-computer-architecture-projects)
 A curated collection of:
