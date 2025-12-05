@@ -4,15 +4,6 @@ I'm a Duke University computer science student with a focus on **systems program
 I work across low-level engineering (C, assembly, CPU design), UI/UX design, and entrepreneurship-driven tech projects.
 
 ---
-
-## Table of Contents
-- [Technical Focus Areas](#technical-focus-areas)
-- [Featured Projects](#featured-projects)
-- [CS250 Computer Architecture Portfolio](#cs250-computer-architecture-portfolio)
-- [Greysun — Greyband Portfolio](#greysun--greyband-portfolio)
-- [UCLA Game Lab Portfolio](#ucla-game-lab-portfolio)
-- [Contact](#contact)
-
   
 ## Technical Focus Areas
 - **Systems & Architecture:** C programming, MIPS assembly, CPU/datapath design, digital logic
