@@ -8,6 +8,7 @@ I work across low-level engineering (C, assembly, CPU design), UI/UX design, and
 ## Technical Focus Areas
 - **Systems & Architecture:** C programming, MIPS assembly, CPU/datapath design, digital logic
 - **Software Engineering:** Java, C#, Python, Git workflows
+- **Game Development:** Unreal Engine 5, C++, Blueprint scripting, gameplay systems
 - **Embedded & Hardware-adjacent work:** Logisim Evolution, timing logic, memory structures
 - **Product & UX:** App design, Figma, rapid prototyping, feature development
 
@@ -26,6 +27,10 @@ A curated collection of:
 Product, UX, and marketing work for a wearable breathalyzer startup.  
 Includes app design, hardware–software interaction concepts, and UX flows.
 
+### 🔹 [Light Runner](https://github.com/Sawyerspector/Light-Runner)
+Third-person platformer developed in **Unreal Engine 5 using C++ and Blueprints**.  
+Features custom grappling and dash systems, dynamic light-dependent traversal, checkpoint logic, HUD systems, and level design built around fast, skill-based movement.
+
 ### 🔹 [UCLA Game Lab Portfolio](https://github.com/Sawyerspector/UCLA-GameLab-Portfolio)
 Game design + rapid prototyping portfolio created during the UCLA Game Lab Summer Institute.  
 Focuses on gameplay systems, level design, and interactive narrative.
@@ -39,4 +44,4 @@ Focuses on gameplay systems, level design, and interactive narrative.
 ---
 
 Thanks for stopping by!  
-I’m always looking to collaborate on systems engineering, embedded development, and creative technical projects.
+I’m always looking to collaborate on systems engineering, embedded development, game development, and creative technical projects.
