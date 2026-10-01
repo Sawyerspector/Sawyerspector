@@ -28,7 +28,7 @@ Product, UX, and marketing work for a wearable breathalyzer startup.
 Includes app design, hardware–software interaction concepts, and UX flows.
 
 ### 🔹 [Light Runner](https://github.com/Sawyerspector/Light-Runner)
-Third-person platformer developed in **Unreal Engine 5 using C++ and Blueprints**.  
+Third-person platformer personally developed in **Unreal Engine 5 using C++ and Blueprints**.  
 Features custom grappling and dash systems, dynamic light-dependent traversal, checkpoint logic, HUD systems, and level design built around fast, skill-based movement.
 
 ### 🔹 [UCLA Game Lab Portfolio](https://github.com/Sawyerspector/UCLA-GameLab-Portfolio)
