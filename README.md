@@ -16,6 +16,10 @@ I work across low-level engineering (C, assembly, CPU design), UI/UX design, and
 
 ## Featured Projects
 
+### 🔹 [Silk — Unified LLM Marketplace](https://github.com/Sawyerspector/silk-llm-marketplace)
+Full-stack AI model marketplace built in **Next.js, TypeScript, and Supabase/PostgreSQL** for Duke CS316.  
+Features a real-time streaming model sandbox, a metered API gateway, atomic prepaid billing via Stripe, and pgvector-powered hybrid search.
+
 ### 🔹 [CS250 Computer Architecture Portfolio](https://github.com/Sawyerspector/cs250-computer-architecture-projects)
 A curated collection of:
 - C systems programs (dynamic memory, data structures)
@@ -44,4 +48,4 @@ Focuses on gameplay systems, level design, and interactive narrative.
 ---
 
 Thanks for stopping by!  
-I’m always looking to collaborate on systems engineering, embedded development, game development, and creative technical projects.
+I'm always looking to collaborate on systems engineering, embedded development, game development, and creative technical projects.
