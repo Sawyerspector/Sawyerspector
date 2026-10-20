@@ -34,7 +34,7 @@ Led UI/UX architecture and prototyping for GreyBand, a wearable breathalyzer and
 ## Featured Projects
 
 ### 🔹 [Medical Document Assistant](https://github.com/Sawyerspector/medical-document-assistant) *(in development)*
-Medical records are scattered across portals and health systems and hard to make sense of. This local-first RAG app brings them into one place so clinicians and patients can ask questions about them, with every answer cited back to its source document and page.
+Medical records are scattered across portals and health systems and hard to keep track of. This local-first app brings documents, schedules, and visit history into one place for clinicians and patients, organizes records automatically, and answers questions about them with citations back to the source document and page.
 Built with **Python/FastAPI**, **ChromaDB**, a local **Llama 3.1 8B** model via Ollama (swappable for any OpenAI-compatible endpoint), and a **React, Vite, and TypeScript** frontend.
 - Page-aware chunking, a calibrated retrieval distance cutoff, and citation validation, so answers say "not found" instead of guessing
 - Synthetic QA evaluation suite with pytest covering retrieval hits, citation source matching, document scoping, and not-found behavior
