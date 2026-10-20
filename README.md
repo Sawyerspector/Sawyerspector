@@ -33,13 +33,14 @@ Led UI/UX architecture and prototyping for GreyBand, a wearable breathalyzer and
 
 ## Featured Projects
 
-### 🔹 Medical Document Assistant *(in development)*
-Local-first RAG application that lets clinicians upload patient documents and ask questions about them, with every answer cited back to its source.
-Built with a **Python/FastAPI** backend, **ChromaDB** vector store, and a **React, Vite, and TypeScript** frontend.
-- End-to-end pipeline: upload → parse → chunk and embed → retrieve → cited answer, with each citation highlighted in the original document
-- Privacy-first by design: CPU-first and local-first, with minimal dependencies, so patient documents never leave the machine
-- Refined the interface and workflow with feedback from healthcare professionals
-- Currently awaiting server integration to run AI locally inside a clinic
+### 🔹 [Medical Document Assistant](https://github.com/Sawyerspector/medical-document-assistant) *(in development)*
+Medical records are scattered across portals and health systems and hard to make sense of. This local-first RAG app brings them into one place so clinicians and patients can ask questions about them, with every answer cited back to its source document and page.
+Built with **Python/FastAPI**, **ChromaDB**, a local **Llama 3.1 8B** model via Ollama (swappable for any OpenAI-compatible endpoint), and a **React, Vite, and TypeScript** frontend.
+- Page-aware chunking, a calibrated retrieval distance cutoff, and citation validation, so answers say "not found" instead of guessing
+- Synthetic QA evaluation suite with pytest covering retrieval hits, citation source matching, document scoping, and not-found behavior
+- Explicit parse status for every upload (parsed, empty, needs OCR, failed), so problem files never disappear silently
+- Privacy-first by design: runs entirely on the user's machine, and remote LLM use is off by default
+- Refined with feedback from healthcare professionals; awaiting server integration to run AI locally inside a clinic
 
 ### 🔹 [Silk — Unified LLM Marketplace](https://github.com/Sawyerspector/silk-llm-marketplace)
 Full-stack platform to discover, compare, and test LLMs, co-built with three teammates in **Next.js, TypeScript, and Supabase/PostgreSQL** for Duke CS316.
