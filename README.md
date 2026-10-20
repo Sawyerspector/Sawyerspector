@@ -1,43 +1,53 @@
 # 👋 Hi, I'm Sawyer Spector
 
-I'm a Duke University computer science student with a focus on **systems programming**, **computer architecture**, and **product-driven software development**.  
-I work across low-level engineering (C, assembly, CPU design), UI/UX design, and entrepreneurship-driven tech projects.
+I'm a Duke University computer science student concentrating in **AI and Machine Learning**.
+As an NLP intern at **SAS**, I built and evaluated a RAG pipeline over SAS's technical documentation. I've also led product and UX design for **GreySun Technologies**, a wearable health-tech startup.
 
 ---
-  
+
+## Experience
+
+### 🔹 SAS Institute — Natural Language Processing Intern (Summer 2026)
+Built and evaluated an end-to-end RAG pipeline over ~1,350 PDFs and ~20K HTML pages of SAS documentation.
+- Improved a semantic chunker that outperformed SAS's standard chunker on 6 of 8 retrieval and evaluation metrics
+- Developed a reusable evaluation harness comparing 3 chunking strategies across models and datasets, adopted for future team projects
+- Presented results to 100+ members of SAS R&D and at the intern expo
+
+*Code is proprietary to SAS and not public.*
+
+### 🔹 [GreySun Technologies — Inventor & Digital Design Director (2021–Present)](https://github.com/Sawyerspector/Greysun-Greyband-Portfolio)
+Led UI/UX architecture and prototyping for GreyBand, a wearable breathalyzer and companion app.
+- Designed web and mobile interfaces in Figma and Adobe
+- Co-inventor on a pending patent for the wearable BAC device
+
+---
+
 ## Technical Focus Areas
-- **Systems & Architecture:** C programming, MIPS assembly, CPU/datapath design, digital logic
-- **Software Engineering:** Java, C#, Python, Git workflows
-- **Game Development:** Unreal Engine 5, C++, Blueprint scripting, gameplay systems
-- **Embedded & Hardware-adjacent work:** Logisim Evolution, timing logic, memory structures
-- **Product & UX:** App design, Figma, rapid prototyping, feature development
+- **AI/ML:** RAG pipelines, LLM evaluation (RAGAS, retrieval metrics), agentic systems, PyTorch, Hugging Face Transformers, LangChain, MCP, quantization
+- **Software Engineering:** Python, TypeScript, Java, C/C++, SQL, Git, Docker, Linux/Bash
+- **Full-Stack:** Next.js, Supabase/PostgreSQL, pgvector
+- **Systems & Architecture:** C, MIPS assembly, CPU/datapath design, digital logic (Logisim Evolution)
+- **Game Development:** Unreal Engine 5, C++, Blueprint scripting
 
 ---
 
 ## Featured Projects
 
 ### 🔹 [Silk — Unified LLM Marketplace](https://github.com/Sawyerspector/silk-llm-marketplace)
-Full-stack AI model marketplace built in **Next.js, TypeScript, and Supabase/PostgreSQL** for Duke CS316.  
-Features a real-time streaming model sandbox, a metered API gateway, atomic prepaid billing via Stripe, and pgvector-powered hybrid search.
+Full-stack platform to discover, compare, and test LLMs, co-built with three teammates in **Next.js, TypeScript, and Supabase/PostgreSQL** for Duke CS316.
+Features a streaming model sandbox, a metered API gateway, atomic prepaid billing via Stripe, and pgvector-powered hybrid search. I implemented the cart and model-access flow.
 
 ### 🔹 [CS250 Computer Architecture Portfolio](https://github.com/Sawyerspector/cs250-computer-architecture-projects)
-A curated collection of:
-- C systems programs (dynamic memory, data structures)
-- MIPS assembly implementations (recursion, data parsing, linked lists)
-- Digital logic circuits (Boolean logic, 16-bit adder/subtractor, FSMs)
 - A full **16-bit single-cycle CPU** designed from scratch in Logisim Evolution
-
-### 🔹 [Greysun — Greyband Portfolio](https://github.com/Sawyerspector/Greysun-Greyband-Portfolio)
-Product, UX, and marketing work for a wearable breathalyzer startup.  
-Includes app design, hardware–software interaction concepts, and UX flows.
+- C systems programs with manual memory management and data structures
+- MIPS assembly implementations (recursion, data parsing, linked lists)
+- Digital logic circuits (16-bit adder/subtractor, FSMs)
 
 ### 🔹 [Light Runner](https://github.com/Sawyerspector/Light-Runner)
-Third-person platformer personally developed in **Unreal Engine 5 using C++ and Blueprints**.  
-Features custom grappling and dash systems, dynamic light-dependent traversal, checkpoint logic, HUD systems, and level design built around fast, skill-based movement.
+Third-person platformer built in **Unreal Engine 5 with C++ and Blueprints**, featuring custom grappling and dash systems and light-dependent traversal.
 
-### 🔹 [UCLA Game Lab Portfolio](https://github.com/Sawyerspector/UCLA-GameLab-Portfolio)
-Game design + rapid prototyping portfolio created during the UCLA Game Lab Summer Institute.  
-Focuses on gameplay systems, level design, and interactive narrative.
+### 🔹 More
+- [UCLA Game Lab Portfolio](https://github.com/Sawyerspector/UCLA-GameLab-Portfolio): four games prototyped at the UCLA Game Lab Summer Institute
 
 ---
 
@@ -47,5 +57,4 @@ Focuses on gameplay systems, level design, and interactive narrative.
 
 ---
 
-Thanks for stopping by!  
-I'm always looking to collaborate on systems engineering, embedded development, game development, and creative technical projects.
+Thanks for stopping by! I'm always interested in collaborating on ML systems, LLM tooling, and projects where models have to work on real data.
