@@ -33,6 +33,14 @@ Led UI/UX architecture and prototyping for GreyBand, a wearable breathalyzer and
 
 ## Featured Projects
 
+### 🔹 Medical Document Assistant *(in development)*
+Local-first RAG application that lets clinicians upload patient documents and ask questions about them, with every answer cited back to its source.
+Built with a **Python/FastAPI** backend, **ChromaDB** vector store, and a **React, Vite, and TypeScript** frontend.
+- End-to-end pipeline: upload → parse → chunk and embed → retrieve → cited answer, with each citation highlighted in the original document
+- Privacy-first by design: CPU-first and local-first, with minimal dependencies, so patient documents never leave the machine
+- Refined the interface and workflow with feedback from healthcare professionals
+- Currently awaiting server integration to run AI locally inside a clinic
+
 ### 🔹 [Silk — Unified LLM Marketplace](https://github.com/Sawyerspector/silk-llm-marketplace)
 Full-stack platform to discover, compare, and test LLMs, co-built with three teammates in **Next.js, TypeScript, and Supabase/PostgreSQL** for Duke CS316.
 Features a streaming model sandbox, a metered API gateway, atomic prepaid billing via Stripe, and pgvector-powered hybrid search. I implemented the cart and model-access flow.
